@@ -1,0 +1,240 @@
+{
+    "model_name": "NeuralVision Feedforward Neural Network (MLP)",
+    "dataset": "MNIST Test Set (untouched)",
+    "test_samples": 10000,
+    "test_loss": 0.0801,
+    "test_accuracy": 0.9765,
+    "test_accuracy_percentage": "97.65%",
+    "macro_avg": {
+        "precision": 0.9763,
+        "recall": 0.9764,
+        "f1_score": 0.9764
+    },
+    "weighted_avg": {
+        "precision": 0.9765,
+        "recall": 0.9765,
+        "f1_score": 0.9765
+    },
+    "per_digit_metrics": {
+        "0": {
+            "precision": 0.9817997977755308,
+            "recall": 0.9908163265306122,
+            "f1_score": 0.9862874555611986,
+            "support": 980
+        },
+        "1": {
+            "precision": 0.9842381786339754,
+            "recall": 0.9903083700440528,
+            "f1_score": 0.9872639437856829,
+            "support": 1135
+        },
+        "2": {
+            "precision": 0.9749276759884281,
+            "recall": 0.9796511627906976,
+            "f1_score": 0.9772837119381343,
+            "support": 1032
+        },
+        "3": {
+            "precision": 0.979187314172448,
+            "recall": 0.9782178217821782,
+            "f1_score": 0.9787023278850916,
+            "support": 1010
+        },
+        "4": {
+            "precision": 0.965,
+            "recall": 0.9826883910386965,
+            "f1_score": 0.9737638748738647,
+            "support": 982
+        },
+        "5": {
+            "precision": 0.9722838137472284,
+            "recall": 0.9831838565022422,
+            "f1_score": 0.9777034559643255,
+            "support": 892
+        },
+        "6": {
+            "precision": 0.9780793319415448,
+            "recall": 0.9780793319415448,
+            "f1_score": 0.9780793319415448,
+            "support": 958
+        },
+        "7": {
+            "precision": 0.9821428571428571,
+            "recall": 0.9630350194552529,
+            "f1_score": 0.9724950884086444,
+            "support": 1028
+        },
+        "8": {
+            "precision": 0.9699792960662525,
+            "recall": 0.9620123203285421,
+            "f1_score": 0.965979381443299,
+            "support": 974
+        },
+        "9": {
+            "precision": 0.9757330637007078,
+            "recall": 0.956392467789891,
+            "f1_score": 0.965965965965966,
+            "support": 1009
+        }
+    },
+    "confusion_matrix": [
+        [
+            971,
+            0,
+            0,
+            1,
+            0,
+            1,
+            3,
+            0,
+            3,
+            1
+        ],
+        [
+            0,
+            1124,
+            3,
+            0,
+            0,
+            2,
+            2,
+            0,
+            4,
+            0
+        ],
+        [
+            2,
+            2,
+            1011,
+            3,
+            2,
+            0,
+            1,
+            6,
+            5,
+            0
+        ],
+        [
+            0,
+            0,
+            4,
+            988,
+            0,
+            10,
+            0,
+            2,
+            4,
+            2
+        ],
+        [
+            0,
+            0,
+            2,
+            0,
+            965,
+            0,
+            6,
+            2,
+            1,
+            6
+        ],
+        [
+            2,
+            0,
+            0,
+            2,
+            1,
+            877,
+            2,
+            2,
+            3,
+            3
+        ],
+        [
+            6,
+            3,
+            0,
+            1,
+            3,
+            5,
+            937,
+            0,
+            3,
+            0
+        ],
+        [
+            1,
+            8,
+            12,
+            2,
+            4,
+            1,
+            1,
+            990,
+            2,
+            7
+        ],
+        [
+            2,
+            0,
+            5,
+            7,
+            7,
+            3,
+            6,
+            2,
+            937,
+            5
+        ],
+        [
+            5,
+            5,
+            0,
+            5,
+            18,
+            3,
+            0,
+            4,
+            4,
+            965
+        ]
+    ],
+    "top_confused_pairs": [
+        {
+            "true_digit": 9,
+            "predicted_digit": 4,
+            "misclassified_count": 18,
+            "description": "Digit '9' misclassified as '4' (18 times)"
+        },
+        {
+            "true_digit": 7,
+            "predicted_digit": 2,
+            "misclassified_count": 12,
+            "description": "Digit '7' misclassified as '2' (12 times)"
+        },
+        {
+            "true_digit": 3,
+            "predicted_digit": 5,
+            "misclassified_count": 10,
+            "description": "Digit '3' misclassified as '5' (10 times)"
+        },
+        {
+            "true_digit": 7,
+            "predicted_digit": 1,
+            "misclassified_count": 8,
+            "description": "Digit '7' misclassified as '1' (8 times)"
+        },
+        {
+            "true_digit": 8,
+            "predicted_digit": 3,
+            "misclassified_count": 7,
+            "description": "Digit '8' misclassified as '3' (7 times)"
+        },
+        {
+            "true_digit": 7,
+            "predicted_digit": 9,
+            "misclassified_count": 7,
+            "description": "Digit '7' misclassified as '9' (7 times)"
+        }
+    ]
+}

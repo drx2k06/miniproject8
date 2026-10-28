@@ -1,0 +1,13 @@
+# NeuralVision AI - Handwritten Digit Recognition
+# Dependencies specification
+
+tensorflow>=2.16.0
+numpy>=1.26.0
+pandas>=2.0.0
+scikit-learn>=1.4.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+streamlit>=1.35.0
+streamlit-drawable-canvas==0.9.3
+pillow>=10.0.0
+pytest>=8.0.0
